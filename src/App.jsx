@@ -1,6 +1,15 @@
+import Footer from "./components/layout/Footer/Footer";
+import Navbar from "./components/layout/Navbar/Navbar";
+import ItemListContainer from "./components/pages/ItemListContainer/ItemListContainer";
 
 function App() {
-  return <h1>Este es el app</h1>
+  return (
+    <div>
+      <Navbar />
+      <ItemListContainer />
+      <Footer />
+    </div>
+  );
 }
 
-export default App
+export default App;
